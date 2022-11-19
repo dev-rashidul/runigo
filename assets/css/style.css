@@ -70,7 +70,7 @@ a.sign-up {
   font-weight: 600;
   text-transform: capitalize;
   color: #000000;
-  padding: 15px 30px;
+  padding: 13px 30px;
   border: 1px solid #000000;
   border-radius: 50px;
   transition: all 0.3s ease-in-out;
@@ -85,7 +85,7 @@ a.sign-up:hover {
 a.login {
   font-weight: 600;
   text-transform: capitalize;
-  padding: 16px 40px;
+  padding: 14px 40px;
   margin-left: 15px;
   color: #ffffff;
   background: #ff4646;
