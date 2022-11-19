@@ -42,11 +42,6 @@ nav.navbar {
   padding: 20px 0;
 }
 
-.logo img {
-  max-width: 80%;
-  width: 100%;
-}
-
 .nav-link {
   font-family: "Montserrat";
   font-size: 16px;
@@ -113,7 +108,7 @@ a.login:hover {
 /* Hero Section CSS Start */
 
 .hero-wrapper {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .hero-content h5 {
@@ -161,6 +156,10 @@ a.login:hover {
   color: #ff4646;
   background: transparent;
   border: 1px solid #ff4646;
+}
+
+.hero-img img {
+  max-width: 90%;
 }
 
 .hero-shape {
