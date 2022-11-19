@@ -153,7 +153,7 @@ a.login:hover {
   color: #777777;
 }
 
-.hero-btn a {
+.common-btn a {
   font-size: 16px;
   font-weight: 600;
   line-height: 20px;
@@ -166,7 +166,7 @@ a.login:hover {
   transition: all 0.3s ease-in-out;
 }
 
-.hero-btn a:hover {
+.common-btn a:hover {
   color: #ff4646;
   background: transparent;
   border: 1px solid #ff4646;
@@ -186,7 +186,7 @@ a.login:hover {
 
 /* Talk Section CSS Start */
 
-.talk-top h5 {
+.section-top h5 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -194,7 +194,7 @@ a.login:hover {
   color: #ff4646;
 }
 
-.talk-top h2 {
+.section-top h2 {
   font-size: 48px;
   font-weight: 500;
   line-height: 59px;
@@ -202,7 +202,7 @@ a.login:hover {
   color: #000000;
 }
 
-.talk-top h2 span {
+.section-top h2 span {
   font-weight: 700;
   color: #000000;
 }
@@ -233,7 +233,7 @@ a.login:hover {
 }
 
 .search img {
-  background: rgba(1, 102, 255, 0.06) !important;
+  width: 18px;
   margin-right: 20px;
 }
 
@@ -253,6 +253,11 @@ input.search-btn {
   box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
   border-radius: 16px;
   padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.talk-card:hover {
+  background: #fafafa;
 }
 
 .talk-card h5 {
@@ -276,5 +281,36 @@ input.search-btn {
 }
 
 /* Talk Section CSS End */
+
+/* About Section CSS Start */
+.about-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff4646;
+}
+
+.about-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.about-content h2 span {
+  font-weight: 700;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #777777;
+}
+
+/* About Section CSS End */
 
 /* Main Part CSS End */

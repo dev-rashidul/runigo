@@ -2,7 +2,8 @@
   .hero-content h1 {
     font-size: 48px;
   }
-  .talk-top h2 {
+  .section-top h2,
+  .about-content h2 {
     font-size: 45px;
   }
 }
@@ -16,7 +17,8 @@
     font-size: 42px;
     line-height: 60px;
   }
-  .talk-top h2 {
+  .section-top h2,
+  .about-content h2 {
     font-size: 42px;
   }
 }
@@ -38,7 +40,8 @@
   .hero-content h1 br {
     display: none;
   }
-  .talk-top h2 {
+  .section-top h2,
+  .about-content h2 {
     font-size: 40px;
   }
 }
@@ -57,14 +60,17 @@
     line-height: 40px;
   }
 
-  .hero-img {
+  .hero-img,
+  .about-content {
     padding-top: 60px;
   }
-  .talk-top h5 {
+  .section-top h5,
+  .about-content h5 {
     font-size: 18px;
   }
-  .talk-top h2 {
-    font-size: 30px;
+  .section-top h2,
+  .about-content h2 {
+    font-size: 28px;
     line-height: 40px;
   }
 
