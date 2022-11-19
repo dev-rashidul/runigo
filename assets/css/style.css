@@ -95,7 +95,7 @@ a.login:hover {
   border: 1px solid #000000;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .navbar-toggler:focus {
     box-shadow: none;
   }
