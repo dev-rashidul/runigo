@@ -163,6 +163,12 @@ a.login:hover {
   border: 1px solid #ff4646;
 }
 
+.hero-shape {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
 /* Hero Section CSS End */
 
 /* Header Part CSS End */
