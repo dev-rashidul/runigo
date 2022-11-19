@@ -313,4 +313,103 @@ input.search-btn {
 
 /* About Section CSS End */
 
+/* Benefits Section CSS Start */
+
+.benefits-card {
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+}
+
+.benefits-card img {
+  background: #1dbf73;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+.benefits-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+  color: #252b42;
+}
+
+.benefits-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #777777;
+  margin: 0;
+}
+
+/* Benefits Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-slider {
+  max-width: 750px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.testimonial-slide img {
+  width: 160px !important;
+  margin: auto;
+}
+
+.testimonial-slide h4 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 15px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.testimonial-slide h6 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.testimonial-slide p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+button.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: -50px;
+}
+
+button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: -50px;
+}
+
+.owl-dot span {
+  background: #d9d9d9 !important;
+}
+
+.owl-dot.active span {
+  background: #1dbf73 !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
+/* Testimonial Section CSS End */
+
 /* Main Part CSS End */
