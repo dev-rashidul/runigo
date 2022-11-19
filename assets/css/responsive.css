@@ -6,6 +6,9 @@
   .about-content h2 {
     font-size: 45px;
   }
+  .work-1::after {
+    left: -120px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -20,6 +23,12 @@
   .section-top h2,
   .about-content h2 {
     font-size: 42px;
+  }
+  .work-1::after {
+    left: -117px;
+  }
+  .work-content {
+    padding-right: 75px;
   }
 }
 
@@ -43,6 +52,13 @@
   .section-top h2,
   .about-content h2 {
     font-size: 40px;
+  }
+
+  .work-1::after {
+    left: -110px;
+  }
+  .work-content {
+    padding-right: 40px;
   }
 }
 
@@ -88,5 +104,31 @@
 
   button.owl-next {
     right: -10px;
+  }
+  .work-content,
+  .work-img {
+    width: 100%;
+  }
+  .works-timeline::after {
+    left: 10px;
+  }
+  .works {
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .cl-reverse {
+    flex-direction: column-reverse;
+  }
+  .work-1::after {
+    left: -52px;
+  }
+  .work-content {
+    margin-left: 0;
+    padding-right: 0;
+  }
+  .work-content h1 {
+    font-size: 150px;
+    left: -40px;
+    top: 20px;
   }
 }

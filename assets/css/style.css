@@ -1,6 +1,6 @@
 /* Base Style CSS Start */
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
 
 * {
   margin: 0;
@@ -411,5 +411,75 @@ button.owl-next {
 }
 
 /* Testimonial Section CSS End */
+
+/* Works Section CSS Start */
+
+.works-timeline::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 100%;
+  background: #b7e8d3;
+  top: 80px;
+  left: 46%;
+  transform: translate(-46%);
+  border-radius: 20px;
+}
+
+.works {
+  display: flex;
+  padding-top: 100px;
+}
+
+.work-img {
+  width: 50%;
+}
+
+.work-1::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #1dbf73;
+  border-radius: 50%;
+  left: -129px;
+  top: 0;
+  z-index: 1;
+}
+
+.work-content {
+  width: 50%;
+  margin-left: 150px;
+  margin-top: 100px;
+  padding-right: 150px;
+}
+
+.work-content h1 {
+  position: absolute;
+  font-size: 204px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-top: -100px;
+  left: -60px;
+  color: #ededef;
+  z-index: -1;
+}
+
+.work-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #252b42;
+}
+
+.work-content p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #777777;
+}
+
+/* Works Section CSS End */
 
 /* Main Part CSS End */
