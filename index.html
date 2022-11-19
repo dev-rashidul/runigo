@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
 
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
@@ -375,21 +378,26 @@
           <div class="container">
             <div class="works-timeline position-relative">
               <div class="works">
-                <div class="work-img">
+                <div class="work-img" data-aos="fade-right">
                   <img src="assets/images/works-1.png" alt="works-1" />
                 </div>
                 <div class="work-content position-relative work-1">
-                  <h1>1</h1>
-                  <h3>find the best tutor</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet adipiscing elit tempor incididunt
-                    Aliquet nibh Lorem ipsum dolor sit amet adipiscing elit
-                    tempor incididunt Aliquet nibh.
-                  </p>
+                  <div data-aos="fade-left">
+                    <h1>1</h1>
+                    <h3>find the best tutor</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet adipiscing elit tempor
+                      incididunt Aliquet nibh Lorem ipsum dolor sit amet
+                      adipiscing elit tempor incididunt Aliquet nibh.
+                    </p>
+                  </div>
                 </div>
               </div>
               <div class="works cl-reverse">
-                <div class="work-content position-relative ms-0">
+                <div
+                  class="work-content position-relative ms-0"
+                  data-aos="fade-right"
+                >
                   <h1>2</h1>
                   <h3>steps i don’t know :P</h3>
                   <p>
@@ -398,15 +406,18 @@
                     tempor incididunt Aliquet nibh.
                   </p>
                 </div>
-                <div class="work-img ms-md-5 ps-md-5">
+                <div class="work-img ms-md-5 ps-md-5" data-aos="fade-left">
                   <img src="assets/images/works-2.png" alt="works-2" />
                 </div>
               </div>
               <div class="works">
-                <div class="work-img">
+                <div class="work-img" data-aos="fade-right">
                   <img src="assets/images/works-3.png" alt="works-3" />
                 </div>
-                <div class="work-content position-relative">
+                <div
+                  class="work-content position-relative"
+                  data-aos="fade-left"
+                >
                   <h1>3</h1>
                   <h3>here goes step 3</h3>
                   <p>
@@ -523,6 +534,9 @@
 
     <!-- Owl Carousel for Slider -->
     <script src="assets/js/owl.carousel.min.js"></script>
+
+    <!-- AOS Animation JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Bootstrap JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>

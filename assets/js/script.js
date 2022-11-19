@@ -20,3 +20,7 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+// AOS Animation
+
+AOS.init();
