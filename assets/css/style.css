@@ -1,0 +1,99 @@
+/* Base Style CSS Start */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Style CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 80%;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #a3a2a4;
+  padding: 0 15px !important;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #231f20;
+}
+
+a.sign-up {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 15px 30px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+
+a.login {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 16px 40px;
+  margin-left: 15px;
+  color: #ffffff;
+  background: #ff4646;
+  border: 1px solid #ff4646;
+  border-radius: 50px;
+}
+
+@media (max-width: 992px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .nav-buttons {
+    margin-top: 25px;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Header Part CSS End */
