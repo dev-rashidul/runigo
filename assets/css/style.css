@@ -68,6 +68,13 @@ a.sign-up {
   padding: 15px 30px;
   border: 1px solid #000000;
   border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+a.sign-up:hover {
+  color: #ffffff;
+  border: 1px solid #ff4646;
+  background: #ff4646;
 }
 
 a.login {
@@ -79,6 +86,13 @@ a.login {
   background: #ff4646;
   border: 1px solid #ff4646;
   border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+a.login:hover {
+  color: #000000;
+  background: transparent;
+  border: 1px solid #000000;
 }
 
 @media (max-width: 992px) {
@@ -95,5 +109,60 @@ a.login {
 }
 
 /* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding-top: 50px;
+}
+
+.hero-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff4646;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.hero-content h1 span {
+  font-weight: 700;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #777777;
+}
+
+.hero-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #ff4646;
+  border: 1px solid #ff4646;
+  padding: 13px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-btn a:hover {
+  color: #ff4646;
+  background: transparent;
+  border: 1px solid #ff4646;
+}
+
+/* Hero Section CSS End */
 
 /* Header Part CSS End */
