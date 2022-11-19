@@ -3,7 +3,8 @@
     font-size: 48px;
   }
   .section-top h2,
-  .about-content h2 {
+  .about-content h2,
+  .mentor-content h2 {
     font-size: 45px;
   }
   .work-1::after {
@@ -21,7 +22,8 @@
     line-height: 60px;
   }
   .section-top h2,
-  .about-content h2 {
+  .about-content h2,
+  .mentor-content h2 {
     font-size: 42px;
   }
   .work-1::after {
@@ -50,7 +52,8 @@
     display: none;
   }
   .section-top h2,
-  .about-content h2 {
+  .about-content h2,
+  .mentor-content h2 {
     font-size: 40px;
   }
 
@@ -77,15 +80,18 @@
   }
 
   .hero-img,
-  .about-content {
+  .about-content,
+  .mentor-img {
     padding-top: 60px;
   }
   .section-top h5,
-  .about-content h5 {
+  .about-content h5,
+  .mentor-content h5 {
     font-size: 18px;
   }
   .section-top h2,
-  .about-content h2 {
+  .about-content h2,
+  .mentor-content h2 {
     font-size: 28px;
     line-height: 40px;
   }
