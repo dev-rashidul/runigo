@@ -111,6 +111,10 @@ a.login:hover {
   padding-top: 20px;
 }
 
+.hero-content {
+  margin-top: -70px;
+}
+
 .hero-content h5 {
   font-size: 18px;
   font-weight: 700;
@@ -156,10 +160,6 @@ a.login:hover {
   color: #ff4646;
   background: transparent;
   border: 1px solid #ff4646;
-}
-
-.hero-img img {
-  max-width: 90%;
 }
 
 .hero-shape {
