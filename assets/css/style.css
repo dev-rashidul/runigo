@@ -569,3 +569,574 @@ hr {
 }
 
 /* Footer Part CSS End */
+/* Base Style CSS Start */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+  background: #f9fafc;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-spacing {
+  padding-top: 120px;
+}
+
+/* Base Style CSS End */
+
+/* Header Part CSS Start */
+
+/* Navigation Section CSS Start */
+
+nav.navbar {
+  padding: 20px 0;
+}
+
+.logo img {
+  max-width: 175px;
+  width: 100%;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #a3a2a4;
+  padding: 0 15px !important;
+}
+
+.nav-link.active {
+  font-weight: 700;
+  color: #231f20;
+}
+
+a.sign-up {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 13px 30px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+a.sign-up:hover {
+  color: #ffffff;
+  border: 1px solid #ff4646;
+  background: #ff4646;
+}
+
+a.login {
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 14px 40px;
+  margin-left: 15px;
+  color: #ffffff;
+  background: #ff4646;
+  border: 1px solid #ff4646;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+a.login:hover {
+  color: #000000;
+  background: transparent;
+  border: 1px solid #000000;
+}
+
+@media (max-width: 1200px) {
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .nav-buttons {
+    margin-top: 25px;
+  }
+}
+
+/* Navigation Section CSS End */
+
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding-top: 20px;
+}
+
+.hero-content {
+  margin-top: -50px;
+}
+
+.hero-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff4646;
+}
+
+.hero-content h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.hero-content h1 span {
+  font-weight: 700;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.hero-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #777777;
+}
+
+.common-btn a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #ff4646;
+  border: 1px solid #ff4646;
+  padding: 13px 30px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.common-btn a:hover {
+  color: #ff4646;
+  background: transparent;
+  border: 1px solid #ff4646;
+}
+
+.hero-shape {
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+/* Hero Section CSS End */
+
+/* Header Part CSS End */
+
+/* Main Part CSS Start */
+
+/* Talk Section CSS Start */
+
+.section-top h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ff4646;
+}
+
+.section-top h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 59px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.section-top h2 span {
+  font-weight: 700;
+  color: #000000;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.search-text {
+  display: flex;
+  align-items: center;
+  background: rgba(1, 102, 255, 0.06);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search input {
+  width: 400px;
+  border: none;
+  outline: none;
+  padding: 18px 20px;
+  background: transparent;
+}
+
+.search img {
+  width: 18px;
+  margin-right: 20px;
+}
+
+input.search-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #1dbf73;
+  padding: 18px 30px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.talk-card {
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  padding: 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.talk-card:hover {
+  background: #fafafa;
+}
+
+.talk-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  padding-top: 5px;
+}
+
+.talk-card p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+::placeholder {
+  font-weight: 500;
+  color: #8c9197;
+}
+
+/* Talk Section CSS End */
+
+/* About Section CSS Start */
+.about-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff4646;
+}
+
+.about-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.about-content h2 span {
+  font-weight: 700;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.about-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #777777;
+}
+
+/* About Section CSS End */
+
+/* Benefits Section CSS Start */
+
+.benefits-card {
+  background: #ffffff;
+  padding: 25px;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+}
+
+.benefits-card img {
+  background: #1dbf73;
+  padding: 10px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+}
+
+.benefits-card h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  text-transform: capitalize;
+  color: #252b42;
+}
+
+.benefits-card p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #777777;
+  margin: 0;
+}
+
+/* Benefits Section CSS End */
+
+/* Testimonial Section CSS Start */
+
+.testimonial-slider {
+  max-width: 750px;
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+.testimonial-slide img {
+  width: 160px !important;
+  margin: auto;
+}
+
+.testimonial-slide h4 {
+  font-size: 26px;
+  font-weight: 700;
+  padding-top: 15px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.testimonial-slide h6 {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.testimonial-slide p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 31px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+button.owl-prev {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  left: -50px;
+}
+
+button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%);
+  right: -50px;
+}
+
+.owl-dot span {
+  background: #d9d9d9 !important;
+}
+
+.owl-dot.active span {
+  background: #1dbf73 !important;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none;
+}
+
+/* Testimonial Section CSS End */
+
+/* Works Section CSS Start */
+
+.works-timeline::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 95%;
+  background: #b7e8d3;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 20px;
+}
+
+.works {
+  display: flex;
+  padding-top: 100px;
+}
+
+.work-img {
+  width: 50%;
+}
+
+.work-1::after {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background: #1dbf73;
+  border-radius: 50%;
+  left: -121px;
+  top: 0;
+  z-index: 1;
+}
+
+.work-content {
+  width: 50%;
+  margin-left: 250px;
+  margin-top: 100px;
+  padding-right: 150px;
+}
+
+.work-content h1 {
+  position: absolute;
+  font-size: 204px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  margin-top: -100px;
+  left: -60px;
+  color: #ededef;
+  z-index: -1;
+}
+
+.work-content h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  text-transform: capitalize;
+  color: #252b42;
+}
+
+.work-content p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+  color: #777777;
+}
+
+/* Works Section CSS End */
+
+/* Mentor Section CSS Start */
+
+.mentor-wrapper {
+  background: #3734a9;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+
+.mentor-content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.mentor-content h2 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 68px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.mentor-content h2 span {
+  font-weight: 700;
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.mentor-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.mentor-shape1 {
+  position: absolute;
+  top: -90px;
+  right: 15px;
+}
+
+.mentor-shape2 {
+  position: absolute;
+  top: 85px;
+  left: 770px;
+}
+
+.mentor-shape3 {
+  position: absolute;
+  bottom: 80px;
+}
+
+/* Mentor Section CSS End */
+
+/* Main Part CSS End */
+
+/* Footer Part CSS Start */
+
+.footer-wrapper {
+  background: #151515;
+  padding: 80px 0 20px;
+}
+
+.footer-content a:hover {
+  color: #a3a2a4;
+}
+
+.footer-social a {
+  padding: 0 20px;
+}
+
+hr {
+  color: #e5e5ea;
+  margin-top: 50px;
+}
+
+.footer-copy p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #5b5b5b;
+  padding-top: 30px;
+  letter-spacing: -0.02em;
+}
+
+/* Footer Part CSS End */

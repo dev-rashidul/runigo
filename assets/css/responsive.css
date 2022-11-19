@@ -8,7 +8,7 @@
     font-size: 45px;
   }
   .work-1::after {
-    left: -120px;
+    left: -119px;
   }
 }
 
@@ -27,10 +27,14 @@
     font-size: 42px;
   }
   .work-1::after {
-    left: -117px;
+    left: -127px;
   }
   .work-content {
     padding-right: 75px;
+  }
+
+  .footer-content a {
+    padding: 0 10px !important;
   }
 }
 
@@ -58,10 +62,14 @@
   }
 
   .work-1::after {
-    left: -110px;
+    left: -130px;
   }
   .work-content {
     padding-right: 40px;
+  }
+
+  .footer-content a {
+    padding: 0 10px !important;
   }
 }
 
