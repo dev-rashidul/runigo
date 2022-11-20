@@ -84,8 +84,8 @@ a.sign-up {
 
 a.sign-up:hover {
   color: #ffffff;
-  border: 1px solid #ff4646;
-  background: #ff4646;
+  border: 1px solid #000000;
+  background: #000000;
 }
 
 a.login {
@@ -101,9 +101,9 @@ a.login {
 }
 
 a.login:hover {
-  color: #000000;
+  color: #ff4646;
   background: transparent;
-  border: 1px solid #000000;
+  border: 1px solid #ff4646;
 }
 
 .navbar-toggler {
