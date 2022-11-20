@@ -7,7 +7,6 @@ $('.owl-carousel').owlCarousel({
     autoplay : true,
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
-    navText: ['<img src="/assets/images/arrow-left.png"/>', '<img src="/assets/images/arrow-right.png"/>'],
     responsive:{
         0:{
             items:1
