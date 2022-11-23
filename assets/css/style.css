@@ -163,6 +163,10 @@ a.login:hover {
   background-color: #151515;
 }
 
+.nav-buttons img {
+  width: 20px;
+}
+
 @media (max-width: 1200px) {
   .navbar-toggler:focus {
     box-shadow: none;
