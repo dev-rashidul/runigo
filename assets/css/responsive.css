@@ -164,6 +164,17 @@ Mentor Page Responsive CSS
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .rating-cat::before {
+    width: 70%;
+    left: 70px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 70px;
+  }
+}
+
 @media (min-width: 300px) and (max-width: 767px) {
   .mentor-profile-img img {
     max-width: 100px;

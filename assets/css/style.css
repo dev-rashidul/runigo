@@ -712,9 +712,9 @@ Mentor Page CSS
 }
 
 .about-btn:hover {
-  color: #1dbf73;
-  background: transparent;
-  border: 1px solid #1dbf73;
+  color: #ffffff;
+  background: #151515;
+  border: 1px solid #151515;
 }
 
 .review-btn {
