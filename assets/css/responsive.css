@@ -146,3 +146,47 @@
     top: 20px;
   }
 }
+
+/* ===========***===========
+===========***===========
+Mentor Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 1201px) and (max-width: 1399px) {
+  .rating-cat::before {
+    width: 75%;
+    left: 65px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 65px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .mentor-profile-img img {
+    max-width: 100px;
+  }
+  .mentor-about-content,
+  .education,
+  .rating {
+    padding: 30px 20px;
+  }
+  .final-rating {
+    max-width: 100%;
+    margin-right: 0;
+    border-right: none;
+  }
+  .rating-cat::before {
+    width: 65%;
+    left: 65px;
+  }
+  .rating-5::after,
+  .rating-4::after {
+    left: 65px;
+  }
+  .student-review p {
+    padding-left: 0;
+  }
+}

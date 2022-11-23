@@ -639,3 +639,422 @@ hr {
 }
 
 /* Footer Part CSS End */
+
+/* ===========***===========
+===========***===========
+Mentor Page CSS
+===========***===========
+===========***=========== */
+
+/* Mentor Main CSS Start */
+
+.mentor-main-wrapper {
+  margin-top: 160px;
+}
+
+.mentor-profile-img::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #ffffff;
+  border-radius: 100%;
+  background: #1dbf73;
+}
+
+.mentor-profile-info h4 {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.mentor-profile-info h6,
+.mentor-profile-info p {
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.mentor-info-text img {
+  margin-right: 16px;
+}
+
+.mentor-info-text li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #231f20;
+  padding-bottom: 20px;
+}
+
+.mentor-info-text li span {
+  font-weight: 700;
+}
+
+.about-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #f9fafc;
+  background: #1dbf73;
+  border: 1px solid #1dbf73;
+  padding: 22px 34px;
+  border-radius: 4px 4px 0px 0px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.about-btn:hover {
+  color: #1dbf73;
+  background: transparent;
+  border: 1px solid #1dbf73;
+}
+
+.review-btn {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  padding-left: 30px;
+}
+
+hr.about-hr {
+  position: relative;
+  height: 4px;
+  background: #eaedf1;
+  opacity: 1;
+  margin-top: 16px;
+  z-index: -1;
+}
+
+.mentor-about-content {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 40px;
+}
+
+.mentor-about-content h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.mentor-about-content p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #000000;
+}
+
+.mentor-about-content a {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #20bf70;
+  transition: all 0.3s ease-in-out;
+}
+
+.mentor-about-content a:hover {
+  color: #000;
+}
+
+.education {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 40px;
+}
+
+.education-buttons h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.education-buttons a {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  padding: 20px 30px;
+  border-bottom: 3px solid #1dbf73;
+}
+
+.certificate h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #999999;
+}
+
+.certificate p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #666666;
+  margin: 0;
+}
+
+.certificate span {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #20bf70;
+}
+
+.certificate-hr {
+  position: relative;
+  height: 2px;
+  background: #eaedf1;
+  margin-top: 30px;
+  opacity: 1;
+}
+
+.rating {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 40px;
+}
+
+.final-rating {
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+  margin-right: 20px;
+  border-right: 2px solid #eaeaea;
+}
+
+.final-rating h1 {
+  font-size: 96px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+
+.final-rating img {
+  padding: 0 2px;
+}
+
+.final-rating p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #777777;
+  padding-top: 10px;
+}
+
+.rating-cat {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating-cat p {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #eaeaea;
+}
+
+.rating-cat p.active {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.rating-cat::before {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 75px;
+  width: 78%;
+  height: 10px;
+  background: #eaeaea;
+  border-radius: 78px;
+}
+
+.rating-5::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 75px;
+  width: 60%;
+  height: 10px;
+  background: #ffd05a;
+  border-radius: 78px;
+}
+
+.rating-4::after {
+  position: absolute;
+  content: "";
+  top: 7px;
+  left: 75px;
+  width: 10%;
+  height: 10px;
+  background: #ffd05a;
+  border-radius: 78px;
+}
+
+.review-hr {
+  position: relative;
+  height: 2px;
+  background: #eaeaea;
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.student-p-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.student-p-info h5 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.student-p-info p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #b3b3b3 !important;
+  padding: 0 !important;
+  margin: 0;
+}
+
+.student-p-info h6 {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.student-review p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  color: #000000;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.view-all-students a {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ff4646;
+  background: rgba(255, 70, 70, 0.07);
+  padding: 20px 24px;
+  border-radius: 97px;
+}
+
+.lesson-wrapper {
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.lesson-thumb img {
+  width: 100%;
+}
+
+.lession-info h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding-left: 5px;
+}
+
+.lession-info p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #777777;
+  padding-top: 5px;
+  margin: 0;
+}
+
+.book-trial-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #1dbf73;
+  border: 2px solid #1dbf73;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.book-trial-btn a:hover {
+  color: #151515;
+  background: transparent;
+  border: 2px solid #151515;
+}
+
+.send-message-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #1dbf73;
+  border: 2px solid #1dbf73;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.send-message-btn a:hover {
+  color: #ffffff;
+  background: #151515;
+  border: 2px solid #151515;
+}
+
+.save-list-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ff4646;
+  border: 2px solid #ff4646;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.save-list-btn a:hover {
+  color: #ffffff;
+  background: #1dbf73;
+  border: 2px solid #1dbf73;
+}
+
+/* Mentor Main CSS End */
