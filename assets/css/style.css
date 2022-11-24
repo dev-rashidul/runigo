@@ -702,7 +702,8 @@ Mentor Page CSS
   font-weight: 700;
 }
 
-.about-btn {
+.about-btn,
+.meeting-btn {
   font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
@@ -715,7 +716,8 @@ Mentor Page CSS
   z-index: 1;
 }
 
-.about-btn:hover {
+.about-btn:hover,
+.meeting-btn:hover {
   color: #ffffff;
   background: #151515;
   border: 1px solid #151515;
@@ -1062,3 +1064,107 @@ hr.about-hr {
 }
 
 /* Mentor Main CSS End */
+
+/* ===========***===========
+===========***===========
+Mentor Page CSS
+===========***===========
+===========***=========== */
+
+/* Lesson Main CSS Start */
+
+.main-lesson-wrapper {
+  margin-top: 160px;
+}
+
+.mentor-card {
+  max-width: 294px;
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.mentor-card-img {
+  margin-left: -45px;
+}
+
+.find-mentor-btn a {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #1dbf73;
+  border: 1px solid #1dbf73;
+  padding: 15px 40px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.find-mentor-btn a:hover {
+  color: #1dbf73;
+  background: transparent;
+  border: 1px solid #1dbf73;
+}
+
+hr.meeting-hr {
+  position: relative;
+  height: 4px;
+  background: #eaedf1;
+  opacity: 1;
+  margin-top: 16px;
+  z-index: -1;
+}
+
+.meeting-cards {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 25px 40px;
+}
+
+.meeting-date h5 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #20bf70;
+  margin: 0;
+}
+
+.meeting-date span {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.meeting-card-left h6 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.meeting-user h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.meeting-user p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.meeting-message-btn {
+  max-width: 250px;
+  width: 100%;
+}
+
+/* Lesson Main CSS End */

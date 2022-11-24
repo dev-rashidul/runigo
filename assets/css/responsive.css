@@ -212,3 +212,21 @@ Mentor Page Responsive CSS
     padding-left: 0;
   }
 }
+
+/* ===========***===========
+===========***===========
+Lesson Page Responsive CSS
+===========***===========
+===========***=========== */
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .mentor-card {
+    max-width: 100%;
+  }
+  .mentor-card img {
+    max-width: 80%;
+  }
+  .meeting-cards {
+    padding: 25px 10px;
+  }
+}
