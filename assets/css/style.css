@@ -1167,4 +1167,70 @@ hr.meeting-hr {
   width: 100%;
 }
 
+/* Favorite Mentor */
+
+.fav-mentor-wrapper {
+  padding: 80px 0;
+}
+
+.fav-mentor-top h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+hr.fav-mentor-top-hr {
+  position: relative;
+  height: 4px;
+  background: #eaedf1;
+  opacity: 1;
+  margin-top: 16px;
+}
+
+.fav-mentor-card {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.03);
+  padding: 25px 40px;
+  border-radius: 16px;
+}
+
+.fav-mentor-card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 0;
+}
+
+.fav-mentor-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.fav-mentor-show-btn a {
+  display: block;
+  width: 200px;
+  margin: 50px auto 0;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #1dbf73;
+  border: 2px solid #1dbf73;
+  padding: 12px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.fav-mentor-show-btn a:hover {
+  color: #1dbf73;
+  background: transparent;
+  border: 2px solid #1dbf73;
+}
+
 /* Lesson Main CSS End */

@@ -229,4 +229,7 @@ Lesson Page Responsive CSS
   .meeting-cards {
     padding: 25px 10px;
   }
+  .fav-mentor-top h2 {
+    font-size: 28px;
+  }
 }
