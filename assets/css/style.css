@@ -1250,11 +1250,11 @@ Register Page CSS
 
 .register-top img {
   width: 150px;
-  margin: 50px 0;
+  margin: 25px 0;
 }
 
 .register-content {
-  padding: 50px 0 0 50px;
+  padding: 40px 0 10px 40px;
 }
 
 .register-content h2 {
@@ -1317,7 +1317,7 @@ Register Page CSS
 
 .register-img {
   max-width: 90%;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .register-img img {
@@ -1347,7 +1347,7 @@ Register Page CSS
 }
 
 .login-top img {
-  width: 1500px;
+  width: 150px;
   margin-top: -150px;
   margin-bottom: 60px;
 }
