@@ -1234,3 +1234,154 @@ hr.fav-mentor-top-hr {
 }
 
 /* Lesson Main CSS End */
+
+/* ===========***===========
+===========***===========
+Register Page CSS
+===========***===========
+===========***=========== */
+
+/* Register Section CSS Start */
+
+.register-wrapper {
+  background: linear-gradient(300deg, #f0ff00 30%, #58cffb 100%);
+  border-radius: 48px 48px 300px 48px;
+}
+
+.register-top img {
+  width: 200px;
+  margin: 50px 0;
+}
+
+.register-content {
+  padding: 50px 0 0 50px;
+}
+
+.register-content h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #fff4f4;
+}
+
+.register-form {
+  max-width: 500px;
+  width: 100%;
+}
+
+.form-group input {
+  max-width: 500px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.25);
+  padding: 18px;
+  margin-bottom: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+.submit-btn input {
+  display: block;
+  width: 250px;
+  margin: auto;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #ff4646;
+  padding: 15px;
+  box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 50px;
+}
+
+.register-form p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  padding-top: 15px;
+}
+
+.register-form p a {
+  color: #ff4646;
+}
+
+.register-form::placeholder {
+  font-size: 16px;
+  color: #999999;
+}
+
+.register-img {
+  max-width: 90%;
+  padding: 50px 0;
+}
+
+.register-img img {
+  position: relative;
+  margin-left: 130px;
+}
+
+/* Register Section CSS End */
+
+/* ===========***===========
+===========***===========
+Register Page CSS
+===========***===========
+===========***=========== */
+
+/* Login Section CSS Start */
+
+.login-img {
+  max-width: 60%;
+  width: 100%;
+}
+
+.login-content {
+  max-width: 30%;
+  width: 100%;
+  margin: auto;
+}
+
+.login-top img {
+  width: 200px;
+  margin-top: -150px;
+  margin-bottom: 100px;
+}
+
+.login-btn input {
+  width: 280px;
+  color: #ffffff;
+  background: #0166ff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+}
+
+.login-form p {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #252b42;
+  padding-top: 15px;
+}
+
+.login-form p a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #6887fb;
+}
+
+.login-form a {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #6887fb;
+}
+
+/* Login Section CSS End */
