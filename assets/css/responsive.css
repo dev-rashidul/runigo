@@ -318,10 +318,10 @@ Login Page Responsive CSS
     margin-bottom: 30px;
   }
   .login-img {
-    max-width: 60%;
+    max-width: 100%;
   }
   .login-content {
-    max-width: 35%;
+    max-width: 100%;
   }
 }
 
