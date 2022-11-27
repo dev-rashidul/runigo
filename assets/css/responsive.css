@@ -255,6 +255,10 @@ Register Page Responsive CSS
 @media (min-width: 768px) and (max-width: 991px) {
   .register-content h2 {
     font-size: 36px;
+    text-align: center;
+  }
+  .register-form {
+    margin: auto;
   }
   .register-img {
     max-width: 100%;

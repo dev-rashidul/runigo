@@ -1249,7 +1249,7 @@ Register Page CSS
 }
 
 .register-top img {
-  width: 200px;
+  width: 150px;
   margin: 50px 0;
 }
 
@@ -1347,9 +1347,9 @@ Register Page CSS
 }
 
 .login-top img {
-  width: 200px;
+  width: 1500px;
   margin-top: -150px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .login-btn input {
